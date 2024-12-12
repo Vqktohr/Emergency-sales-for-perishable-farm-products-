@@ -1,0 +1,63 @@
+.bg_image {
+    height: 83vh;
+    background-image: url(https://img.freepik.com/free-photo/shopping-cart-full-with-groceries-dark-backgrounds_1268-29511.jpg?t=st=1724361157~exp=1724364757~hmac=6c23893c66cda574027b7f5d9aa7b35a4d270488557d62bf46040685774b9a21&w=740);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    margin-top: 0;
+}
+.onboard {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/
+    see-through */
+    text-shadow: 2px 2px 2px black;
+  }
+  .text {
+    text-align: center;
+    margin-top: 4rem;
+    padding-top: 7rem;
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    text-align: center; */
+  }
+  .para {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+    /* font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 2rem;
+    text-align: center; */
+  }
+  .btn55 button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    /* background-color: #e45122; */
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    box-shadow: 2px 2px 5px black;
+    
+  }
+  .start55:hover {
+    transform: scale(1.05);
+    border-color: #ffffff;
+    background-color: #ffffff;
+    color:rgb(252, 3, 107);
+  }
